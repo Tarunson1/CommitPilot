@@ -1,0 +1,36 @@
+<svg width="680" height="430" viewBox="0 0 680 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">aic example usage</title>
+  <desc id="desc">Terminal mockup showing example commands for the AI Commit Generator CLI.</desc>
+
+  <rect x="0" y="0" width="680" height="430" rx="10" fill="#1e1e1e"/>
+
+  <!-- title bar -->
+  <rect x="0" y="0" width="680" height="34" rx="10" fill="#2b2b2b"/>
+  <rect x="0" y="24" width="680" height="10" fill="#2b2b2b"/>
+  <circle cx="22" cy="17" r="6" fill="#ff5f56"/>
+  <circle cx="42" cy="17" r="6" fill="#ffbd2e"/>
+  <circle cx="62" cy="17" r="6" fill="#27c93f"/>
+  <text x="340" y="21" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="12" fill="#9a9a9a">terminal</text>
+
+  <g font-family="Menlo, Consolas, monospace" font-size="13.5" fill="#d4d4d4">
+    <text x="22" y="60" fill="#7a7a7a"># Generate a commit message for staged changes</text>
+    <text x="22" y="80" fill="#4ec9b0">$ aic</text>
+
+    <text x="22" y="112" fill="#7a7a7a"># Run with debug logging</text>
+    <text x="22" y="132" fill="#4ec9b0">$ aic -d</text>
+
+    <text x="22" y="164" fill="#7a7a7a"># Local mode with a specific Ollama model</text>
+    <text x="22" y="184" fill="#4ec9b0">$ aic -m "llama3.2:3b"</text>
+
+    <text x="22" y="216" fill="#7a7a7a"># Remote mode via Groq</text>
+    <text x="22" y="236" fill="#4ec9b0">$ export AI_COMMIT_PROVIDER="groq"</text>
+    <text x="22" y="256" fill="#4ec9b0">$ export AI_COMMIT_MODEL="qwen-2.5-32b"</text>
+    <text x="22" y="276" fill="#4ec9b0">$ aic -r</text>
+
+    <text x="22" y="308" fill="#7a7a7a"># Bring your own OpenAI-compatible provider</text>
+    <text x="22" y="328" fill="#4ec9b0">$ export AI_COMMIT_PROVIDER=custom</text>
+    <text x="22" y="348" fill="#4ec9b0">$ export AI_COMMIT_MODEL=llama3.2:3b</text>
+    <text x="22" y="368" fill="#4ec9b0">$ export AI_COMMIT_PROVIDER_BASE_URL=http://localhost:11434/v1</text>
+    <text x="22" y="388" fill="#4ec9b0">$ aic -r</text>
+  </g>
+</svg>
