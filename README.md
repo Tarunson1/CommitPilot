@@ -97,8 +97,6 @@ export OPENAI_API_KEY=<your-api-key> # optional — only if your custom provider
 
 ### 📝 In-place Editing
 
-[🎥 Watch the Demo](https://www.linkedin.com/feed/update/urn:li:activity:7293488744391675905/)
-
 Set your editor environment variable:
 
 ```sh
